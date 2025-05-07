@@ -1,0 +1,122 @@
+/* Reset y base */
+.contenedor {
+  background-color: #b7b12a;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  }
+
+  .custom-navbar {
+    background-color: #b7b12a !important;
+    backdrop-filter: blur(5px);
+  }
+  
+  .custom-navbar .navbar-brand,
+  .custom-navbar .nav-link {
+    font-family: 'Comfortaa', cursive;
+    color: black!important;
+  }
+  
+  .custom-navbar .nav-link.active {
+    font-weight: bold;
+    color: black !important;
+  }
+  
+  .custom-navbar .nav-link:hover, 
+  .navbar-brand:hover {
+    color: #ffffff !important;
+  }
+  
+  /* Formulario */
+  form {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+.formulario-inicio-sesion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  h2 {
+    font-family: 'Boldonse', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white !important;
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  /* Campos de formulario */
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para el grupo de radio buttons */
+  .form-group {
+    margin-top: 13px;
+    margin-bottom: 1rem;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: white;
+  } 
+  /*Checf formulario*/
+  
+  .check-terminos {
+    display: flex;
+    align-items: center;
+    accent-color: #2b7d0e;
+  }
+  
+  .terminos-input{
+    margin-top: 17px;
+  }
+  
+  /* Botón iniciar sesion*/
+  button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2b7d0e;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px !important;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #466317;
+  }
+  
+  /* ya registrado*/
+  
+  .no-cuenta{
+    margin-top: 2%;
+    text-align: center;
+  }
+  
+  .no-cuenta-a{
+    color: white;
+  }
+  
