@@ -291,15 +291,14 @@
   }
   
   .header-pueblo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/multimedia/san_rafael_banner.jpg');
-    background-color: #b7b12a;
-    background-size: cover;
-    background-position: center;
-    padding: 5rem 1rem;
-    text-align: center;
-    color: white;
-    margin-bottom: 2rem;
-  }
+  
+  
+  background-color: #b7b12a; 
+  padding: 5rem 1rem;
+  text-align: center;
+  color: white; 
+  margin-bottom: 2rem;
+}
   
   .header-pueblo .nombre-pueblo {
     font-family: 'Boldonse', sans-serif;
@@ -572,6 +571,8 @@
     color: blanchedalmond;
     text-decoration: underline;
   }
+
+  
   
   @media (max-width: 768px) {
     .header-pagina .titulo-pagina {
@@ -587,4 +588,5 @@
     .info-contacto-wrapper {
       padding: 1.5rem !important;
     }
+
   }
